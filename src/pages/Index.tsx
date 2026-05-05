@@ -15,9 +15,7 @@ const SERVICES = [
   { icon: "Thermometer", title: "Отопление", desc: "Проектирование и монтаж систем отопления любой сложности. Радиаторы, тёплые полы, котельные.", price: "от 1 500 ₽/м²", color: "#FF6B35" },
   { icon: "Droplets", title: "Водоснабжение", desc: "Разводка холодной и горячей воды, установка счётчиков, фильтрационные системы.", price: "от 900 ₽/м.п.", color: "#00D4FF" },
   { icon: "Wind", title: "Вентиляция", desc: "Приточно-вытяжные системы, кондиционирование, воздухоочистка для офисов и домов.", price: "от 2 200 ₽/м²", color: "#00FF88" },
-  { icon: "Zap", title: "Электрика", desc: "Монтаж электрощитов, разводка кабеля, установка розеток, освещение и слаботочка.", price: "от 800 ₽/точка", color: "#FFD600" },
   { icon: "Shield", title: "Канализация", desc: "Монтаж внутренней и внешней канализации, септики, системы ливневой канализации.", price: "от 1 100 ₽/м.п.", color: "#B47AFF" },
-  { icon: "Settings", title: "Комплексный проект", desc: "Полное инженерное оснащение объекта под ключ. Проектирование, монтаж, сдача.", price: "от 3 500 ₽/м²", color: "#FF6B35" },
 ];
 
 const REVIEWS = [
@@ -30,7 +28,6 @@ const CALC_ITEMS = [
   { id: "heating", label: "Отопление", pricePerSqm: 1800, icon: "Thermometer" },
   { id: "water", label: "Водоснабжение", pricePerSqm: 900, icon: "Droplets" },
   { id: "ventilation", label: "Вентиляция", pricePerSqm: 2200, icon: "Wind" },
-  { id: "electric", label: "Электрика", pricePerSqm: 1200, icon: "Zap" },
   { id: "sewage", label: "Канализация", pricePerSqm: 700, icon: "Shield" },
 ];
 
