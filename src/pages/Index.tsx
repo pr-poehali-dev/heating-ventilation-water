@@ -334,7 +334,7 @@ export default function Index() {
         <div style={{ maxWidth: 1200, margin: "0 auto", padding: "0 24px", display: "flex", alignItems: "center", height: 68, gap: 32 }}>
           <button onClick={() => scrollTo("#home")} style={{ display: "flex", alignItems: "center", gap: 10, background: "none", border: "none", cursor: "pointer", color: "#fff" }}>
             <span style={{ fontSize: 28, lineHeight: 1 }}>⚙</span>
-            <span style={{ fontFamily: "'Oswald', sans-serif", fontSize: 22, fontWeight: 600, letterSpacing: 1, color: "#fff" }}>ИнжСтрой</span>
+            <span style={{ fontFamily: "'Oswald', sans-serif", fontSize: 22, fontWeight: 600, letterSpacing: 1, color: "#fff" }}>Газ Вик Сервис</span>
           </button>
 
           <ul style={{ display: "flex", gap: 4, listStyle: "none", margin: 0, padding: 0, flex: 1, justifyContent: "center" }} className="eng-nav-desktop">
@@ -692,9 +692,9 @@ export default function Index() {
         <div style={{ maxWidth: 1200, margin: "0 auto", display: "flex", alignItems: "center", justifyContent: "space-between", flexWrap: "wrap", gap: 16 }}>
           <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
             <span style={{ fontSize: 24 }}>⚙</span>
-            <span style={{ fontFamily: "'Oswald', sans-serif", fontSize: 18, fontWeight: 600 }}>ИнжСтрой</span>
+            <span style={{ fontFamily: "'Oswald', sans-serif", fontSize: 18, fontWeight: 600 }}>Газ Вик Сервис</span>
           </div>
-          <p style={{ color: "rgba(255,255,255,0.3)", fontSize: 14 }}>© 2024 ИнжСтрой. Все права защищены.</p>
+          <p style={{ color: "rgba(255,255,255,0.3)", fontSize: 14 }}>© 2024 Газ Вик Сервис. Все права защищены.</p>
           <div style={{ display: "flex", gap: 24, flexWrap: "wrap" }}>
             {NAV_ITEMS.map((item) => (
               <button key={item.href} onClick={() => scrollTo(item.href)} style={{
